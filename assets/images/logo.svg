@@ -1,0 +1,10 @@
+<svg width="220" height="48" viewBox="0 0 220 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nabes Style Ventures logo">
+  <rect width="220" height="48" rx="10" fill="white"/>
+  <g>
+    <circle cx="24" cy="24" r="14" fill="#1e9e57"/>
+    <path d="M24 14c5.5 0 10 4.5 10 10s-4.5 10-10 10S14 29.5 14 24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <path d="M20 24l3 3 7-7" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="48" y="30" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Nabes Style</text>
+  <text x="48" y="44" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#178e4d">Ventures</text>
+</svg>

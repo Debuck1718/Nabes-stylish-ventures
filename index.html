@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nabes Style Ventures | Home Care & Sewing Supplies - Accra, Ghana</title>
+  <meta name="description" content="Nabes Style Ventures in Accra, Ghana sells home detergents like liquid soap and sewing materials (fabrics and accessories). Shop eco-friendly products with fast local support." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Nabes Style Ventures">
+        <img src="assets/images/logo.svg" alt="Nabes Style Ventures logo" class="logo" />
+        <span>Nabes Style Ventures</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="sr-only">Toggle menu</span>
+        </button>
+        <ul id="primary-menu" class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact" class="btn btn-outline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Clean Homes. Quality Craft. Locally Made.</h1>
+          <p>From eco-friendly detergents to premium sewing materials, Nabes Style Ventures serves households and creatives in Accra, Ghana.</p>
+          <div class="hero-actions">
+            <a href="#products" class="btn btn-primary">Explore Products</a>
+            <a href="#contact" class="btn btn-ghost">Get a Quote</a>
+          </div>
+          <div class="trust">
+            <span>• Made in Ghana</span>
+            <span>• Fast Local Support</span>
+            <span>• Affordable & Reliable</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/images/hero-products.png" alt="Nabes detergents and sewing materials" />
+        </div>
+      </div>
+      <div class="shape-wave" aria-hidden="true"></div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Our Products</h2>
+          <p>Home detergents and sewing materials you can trust.</p>
+          <div class="filters" role="tablist" aria-label="Product categories">
+            <button class="chip active" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="chip" data-filter="detergents" role="tab" aria-selected="false">Detergents</button>
+            <button class="chip" data-filter="sewing" role="tab" aria-selected="false">Sewing Materials</button>
+          </div>
+        </div>
+
+        <div class="grid products-grid">
+          <article class="card product" data-category="detergents">
+            <img src="assets/images/liquid-soap.jpg" alt="Liquid Soap 1L" class="card-img"/>
+            <div class="card-body">
+              <h3>Liquid Soap 1L</h3>
+              <p>Gentle on hands, tough on grease. Fresh scent.</p>
+              <div class="price-row">
+                <span class="price">GHS 25</span>
+                <button class="btn btn-sm btn-primary add-to-cart" data-name="Liquid Soap 1L" data-price="25">Add</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product" data-category="detergents">
+            <img src="assets/images/floor-cleaner.jpg" alt="Multipurpose Floor Cleaner" class="card-img"/>
+            <div class="card-body">
+              <h3>Multipurpose Floor Cleaner</h3>
+              <p>Streak-free shine for tiles and all-purpose cleaning.</p>
+              <div class="price-row">
+                <span class="price">GHS 30</span>
+                <button class="btn btn-sm btn-primary add-to-cart" data-name="Floor Cleaner" data-price="30">Add</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product" data-category="sewing">
+            <img src="assets/images/cloth3.jpg" alt="Ankara Fabric - Premium Prints" class="card-img"/>
+            <div class="card-body">
+              <h3>Ankara Fabric - Premium Prints</h3>
+              <p>Vibrant cotton prints ideal for dresses, shirts, and accessories.</p>
+              <div class="price-row">
+                <span class="price">GHS 70 per yard</span>
+                <button class="btn btn-sm btn-primary add-to-cart" data-name="Ankara Fabric - Premium Prints" data-price="70">Add</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product" data-category="sewing">
+            <img src="assets/images/cloth1.jpg" alt="Cotton Fabric - Solid Colors" class="card-img"/>
+            <div class="card-body">
+              <h3>Cotton Fabric - Solid Colors</h3>
+              <p>Soft, breathable cotton perfect for shirts, kidswear, and uniforms.</p>
+              <div class="price-row">
+                <span class="price">GHS 150 per yard</span>
+                <button class="btn btn-sm btn-primary add-to-cart" data-name="Cotton Fabric - Solid Colors" data-price="150">Add</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Additional clothing materials (added automatically) -->
+          <article class="card product" data-category="sewing">
+            <img src="assets/images/cloth2.jpg" alt="Wax Print Fabric - Classic" class="card-img"/>
+            <div class="card-body">
+              <h3>Wax Print Fabric - Classic</h3>
+              <p>Durable wax print with rich patterns for everyday wear.</p>
+              <div class="price-row">
+                <span class="price">GHS 120 per yard</span>
+                <button class="btn btn-sm btn-primary add-to-cart" data-name="Wax Print Fabric - Classic" data-price="120">Add</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product" data-category="sewing">
+            <img src="assets/images/cloth4.jpg" alt="Kente-inspired Fabric" class="card-img"/>
+            <div class="card-body">
+              <h3>Kente-inspired Fabric</h3>
+              <p>Bold, cultural patterns suitable for special occasions.</p>
+              <div class="price-row">
+                <span class="price">GHS 180 per yard</span>
+                <button class="btn btn-sm btn-primary add-to-cart" data-name="Kente-inspired Fabric" data-price="180">Add</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product" data-category="sewing">
+            <img src="assets/images/cloth5.jpg" alt="Patterned Polyester Fabric" class="card-img"/>
+            <div class="card-body">
+              <h3>Patterned Polyester Fabric</h3>
+              <p>Low-crease fabric ideal for uniforms and workwear.</p>
+              <div class="price-row">
+                <span class="price">GHS 90 per yard</span>
+                <button class="btn btn-sm btn-primary add-to-cart" data-name="Patterned Polyester Fabric" data-price="90">Add</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="cta-row">
+          <a href="#contact" class="btn btn-outline">Request Bulk Order</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section highlight">
+      <div class="container features">
+        <article class="feature">
+          <div class="icon-circle">🌿</div>
+          <h3>Eco‑friendly</h3>
+          <p>Thoughtfully formulated detergents that clean effectively and care for your home.</p>
+        </article>
+        <article class="feature">
+          <div class="icon-circle">🧵</div>
+          <h3>Sewing Materials</h3>
+          <p>Quality fabrics and accessories for clothing production and tailoring.</p>
+        </article>
+        <article class="feature">
+          <div class="icon-circle">🚚</div>
+          <h3>Local Delivery</h3>
+          <p>Fast delivery across Accra with friendly customer support.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>About Nabes Style Ventures</h2>
+          <p>We are a Ghanaian company in Accra providing home detergents and sewing materials for households, boutiques, and small manufacturers. Our mission is to make cleanliness and creativity simple, affordable, and sustainable.</p>
+          <ul class="checklist">
+            <li>Locally produced detergents</li>
+            <li>Trusted by homes and businesses</li>
+            <li>Bulk and wholesale options available</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Talk to Us</a>
+        </div>
+        <div class="about-media">
+          <img src="assets/images/about-team.svg" alt="Our team producing liquid soap at Nabes Style Ventures" />
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header">Do you offer bulk/wholesale pricing?</button>
+            <div class="accordion-panel">
+              <p>Yes. Contact us with your quantities and we’ll share our wholesale rates and delivery timelines.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">Where are you located?</button>
+            <div class="accordion-panel">
+              <p>We are based in Accra, Ghana. We deliver across the city and can arrange courier services for nearby regions.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">What payment methods do you accept?</button>
+            <div class="accordion-panel">
+              <p>We accept Mobile Money, cash on delivery within Accra, and bank transfer for bulk orders.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container two-col">
+        <div>
+          <h2>Contact Us</h2>
+          <p>Have questions or want to place an order? We’d love to help.</p>
+          <ul class="contact-list">
+            <li><strong>Location:</strong> Accra, Ghana</li>
+            <li><strong>Phone:</strong> <a href="tel:+233208533433">+233 208 533 433</a></li>
+            <li><strong>Email:</strong> <a href="mailto:vmensa564@gmail.com">vmensa564@gmail.com</a></li>
+            <li><strong>Hours:</strong> Mon–Sat, 8:00am – 6:00pm</li>
+          </ul>
+          <div class="social">
+            <a href="#" aria-label="WhatsApp">🟢</a>
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Instagram">📷</a>
+          </div>
+        </div>
+
+        <form class="card form" id="contact-form" novalidate>
+          <h3>Send a Message</h3>
+          <div class="form-row">
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+            <small class="error"></small>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            <small class="error"></small>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+            <small class="error"></small>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Nabes Style Ventures</strong>
+        <p class="muted">Cleanliness and creativity, made local.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="copyright">
+        © <span id="year"></span> Nabes Style Ventures. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <button id="cart-fab" class="cart-fab" aria-label="Open cart" aria-haspopup="dialog">
+    🛒 <span class="cart-count">0</span>
+  </button>
+
+  <dialog id="cart-dialog" class="cart-dialog" aria-label="Shopping cart">
+    <form method="dialog" class="cart">
+      <header class="cart-header">
+        <h3>Your Cart</h3>
+        <button class="btn-close" aria-label="Close">✕</button>
+      </header>
+      <div class="cart-items"></div>
+      <div class="cart-summary">
+        <span>Total:</span>
+        <strong class="cart-total">GHS 0</strong>
+      </div>
+      <div class="cart-actions">
+        <button class="btn btn-ghost" value="cancel">Continue Shopping</button>
+        <a href="#contact" class="btn btn-primary">Checkout via Contact</a>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
